@@ -6,7 +6,7 @@ body {
     margin: 0 auto;    
     background: -webkit-radial-gradient(rgb(231, 223, 198), rgb(252, 119, 83));
     background: radial-gradient(rgb(231, 223, 198), rgb(252, 119, 83));
-    background-image: url(./3872532.jpg);
+    background-image: url(./scroll-bg.jpg);
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: cover;
@@ -31,4 +31,16 @@ blockquote {
     background-color: #537A5A;
     border-left: 3px solid black;
     padding-left: 30px;
+}
+
+q {
+    font-style: italic;
+}
+
+.villager{
+    border-left: #347FC4 solid 5px;
+}
+
+.farmer {
+    border-left: #2E933C solid 5px;
 }
