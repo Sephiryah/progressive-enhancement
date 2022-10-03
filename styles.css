@@ -1,5 +1,10 @@
+@font-face{
+    font-family: "Open Sans";
+    src: url(./Open_Sans/static/OpenSans/OpenSans-Regular.ttf);
+}
+
 body {
-    font-family: serif, sans-serif;
+    font-family: "Open Sans", sans-serif;
     word-spacing: 0.1em;
     color: #011936;
     max-width: 90%;
@@ -33,7 +38,7 @@ blockquote {
     padding-left: 30px;
 }
 
-q {
+q, blockquote {
     font-style: italic;
 }
 
@@ -43,4 +48,39 @@ q {
 
 .farmer {
     border-left: #2E933C solid 5px;
+}
+
+header h1 {
+    background-color: #FFB30F;
+}
+
+.good, .bad {
+    text-transform: capitalize;
+}
+
+.bad {
+    color: #FD151B;
+}
+
+.good {
+    color: #0CCE6B;
+}
+
+td:first-child {
+    background-color: #A9927D;
+}
+
+td:last-child {
+    background-color: #F2F4F3;
+}
+
+#story p:first-of-type{
+    font-weight: bold;
+}
+
+img {
+    float: left;
+    max-width: 175px;
+    max-height: 175px;
+    margin-right: 30px;
 }
